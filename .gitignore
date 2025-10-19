@@ -1,0 +1,21 @@
+# No subir datos (son muy pesados)
+data/raw/
+data/processed/
+*.zip
+
+# No subir modelos grandes
+models/*.pt
+models/*.pth
+
+# No subir resultados temporales
+results/plots/*.png
+results/plots/*.jpg
+
+# Python archivos temporales
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Ambientes virtuales
+venv/
+env/

@@ -1,0 +1,17 @@
+CHEST X-RAY CLASSIFIER - MODEL INFORMATION
+============================================================
+
+Architecture: EfficientNet-B0
+Number of classes: 3
+Classes: normal, pneumonia, tuberculosis
+
+Training:
+  Epochs: 20
+  Best Val Loss: 0.3469
+  Best Val Acc: 0.7758
+
+Test Results:
+  Test Loss: 0.3458
+  Test Acc: 0.7766
+
+Training Time: 167.6 minutes

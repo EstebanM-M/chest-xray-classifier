@@ -6,6 +6,7 @@ data/processed/
 # No subir modelos grandes
 models/*.pt
 models/*.pth
+models/*.h5
 
 # No subir resultados temporales
 results/plots/*.png
@@ -19,3 +20,7 @@ __pycache__/
 # Ambientes virtuales
 venv/
 env/
+
+# OS
+.DS_Store
+Thumbs.db
